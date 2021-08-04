@@ -1,0 +1,251 @@
+Why Agile?
+continuous interaction with client on day to day basis
+talk to team members day to day even if there is no need
+top most features are with hgh priority
+for every iteration we release some features which are critical in the market
+
+critical delivery?
+5 iteration x 100$ = 500$
+
+we can reprioritize the tasks or features
+
+Agile has many methodologies inside it
+1.Scrum
+2.Crystal
+3.Kanban
+4.DSDM
+5.Lean
+
+In agile no one assigns any task to the team members
+
+self organized and cross-functional teams
+
+requirements evolve in agile development
+
+		Scrum framework:
+XP - 
+Analysis,Design,Implementation,Testing-Engineering methods 
+
+Refactor - ?
+
+TDD can also be used in scrum
+
+		scrum
+Agile manifesto - best practice
+
+individuals and interactions over process and tools
+
+working software over comprehensive documentation
+
+customer collaboration over contract negotiation
+
+responding to change over following a plan
+
+Agile/Scrum 12 principles:
+1. early and continuous delivery of valuable software
+2. welcome changing requirements
+3. deliver working software frequently
+4. work together along with business people
+5. motivated individuals
+6. face to face conversation
+7. working software
+8. sustainable development(constant pace should be maintained)
+9. continuous attention
+10. simplicity - the amount of work not done is essential
+not done is low priority - more,done - high priority
+11. self organized teams
+12. how to be more effective
+
+fundamentals of the scrum framework:
+How scrum works?
+product backlog(PB) - list of features as a document
+PBI(Product Backlog Item) - each feature is a PBI
+Sprint Backlog - (Each iteration is a sprint) couple of features become one sprint and will become sprint backlog 2 - 3 week sprint
+
+Daily scrum meeting for every 24 hours
+
+product increment - adding new features every iteration.
+
+Scrum Roles:
+Product Owner: owns the product(from the customer side)
+Defines the features of the product
+decide the release date
+fresh development - green field development:
+
+sum of the sprints will go to the market
+
+Maintenance: is called brown field development
+every sprint goes to the market. because we already have the product in the market
+acceptance criteria should be there for every feature
+
+The SCRUM Master:
+represents management to the project team
+process owner role
+responsible for enacting scrum values and practices
+removes impediments
+ensure the team is fully functional and responsible
+shield the team from external interferences 
+we don't have the luxury to push the end date of the sprint
+sprint ends even if you didn't complete the work
+
+Scrum Team(Team Member)
+5 - 9 people
+cross - functional
+full-time
+teams are self organized
+
+scrum master - is not similar to project manager because project manager orders the team members whereas the scrum master does not order his team
+
+scrum ceremonials:
+meetings/events - planning meeting - at the beginning of each sprint - sprint planning
+Attendees - product owner,scrum master,scrum team
+duration - sprint duration * 2 gives duration
+outcome - sprint goal and plan to accomplish work
+
+Daily Scrum:
+Happens every day
+duration: not more than 15 minutes
+Attendees:scrum team,scrum master,product owner
+outcome:sprint progress,impediment list if any
+
+Morning would be ideal...
+
+sprint review:
+last day of that particular sprint
+what was accomplished in the sprint.
+attendees: scrum team,scrum master,scrum team
+duration: 1 hr per 1 week of sprint
+suggestions become new requirements
+outcome: acceptance criteria
+
+sprint retrospective:
+last day of the sprint
+immediately after the sprint review
+1 hr per 1 week of sprint
+any lesson that can be learnt
+to improve the quality
+outcome:continous improvement plan
+review the process
+attendees:scrum master,scrum team
+
+scrum artifacts:
+1. product backlog
+2. created and maintained by the product owner
+3. set of user stories(aka PBI)
+4. ordered as per the priority
+user stories: requirements written in the tone of a user
+i as a content admin, i should be able to login so that i can upload products
+
+BA - business analyst/FC-functional Consultant writes the user stories
+
+PB will be maintained by the po and BA/FC will edit it.
+
+PB:1.user stories
+   2.defects
+   3.Documentation
+   4.POC
+   5.NFR - non functional requirements
+   6.EPIC - big user story - should be broken down into smaller stories
+
+if F11 is very big then convert it into an epic and discuss with the team and break down them as user stories
+should be declared in sprint planning that is before execution
+and also if there is no clarity with the user story then it should be declared epic
+sprint backlog - sprint execution plan:
+
+scrum team - cross functional team
+execution plan will be written by the team
+WBS - work breakdown structure - list of tasks
+sprint backlog is the output of sprint planning
+tasks are picked up by scrum team based on their skill set
+
+burn down chart:
+x-axis: number of hours
+y-axis: number of topics to be finished
+
+ideal burn down chart the top most coordinate in y-axis and the right most coordinate in x-axis
+
+behind schedule - u cannot ask for extra hours,ur sprint is over
+
+ahead of schedule - then u go to PO and ask him to learn for the new features
+
+the above explained chart is burn down chart
+
+what is remaining is important
+
+scope is fixed
+
+Burn Up chart:
+for every one hour i completed one topic.
+scope is variable
+similar to test match
+how much we did is important
+
+release plan is similar to road map to the product
+PO creates the roadmap and maintains it
+
+sprint planning - once in a sprint
+daily scrum - for every day
+sprint review - once in a sprint
+sprint retrospective - once in a sprint
+
+backlog grooming:
+a meeting that happens before the sprint planning and take only the groomed stories into the planning
+same duration as sprint review and sprint retrospective 1hr per 1 week sprint
+
+effort estimation: how long it will take to complete the task
+
+cost estimation: how much money needed
+
+schedule estimation:duration of the task
+
+size estimation:how much size is required
+
+Size estimation:
+1. absolute size estimation - in it's own term
+2. relative size estimation - comparing with others
+
+
+prioritization using MoSCoW:
+Must,Should,Could,Won't
+INVEST in User stories:
+Independent,Negotiable,Valuable,Estimable,small,testable
+
+capacity:
+1.engineering hours - analyzing,design,coding etc..,
+2.non engineering hours - reading mail,writing mail,attending meetings
+
+capacity=number of days in a sprint * number of employees in a sprint * engineering hours 
+
+5*6*6=180hrs is our capacity
+if a national holiday come then no. of days in sprint is reduced by 1 day
+4*6*6=134
+if one person takes a leave
+then 6 eng
+
+part 2 planning meeting is negotiation based on the capacity we have.
+
+kanban board
+story		todo	inprogress	done
+story a  	tasks			tasks
+story b			tasks		tasks
+
+impediments should be quickly resolved by the scrum master
+
+side bar meetings: when impediments are not resolved during daily meeting
+
+story points: the size estimation points add up according to the user stories done in that particular sprint.2+3+5=10 story points
+
+avg.velocity: average of the last three sprints
+
+avg.velocity is used to predict future releases
+
+sprint retrospective:
+any lessons learnt at the end of that particular sprint so that we can apply it on the next sprint
+
+www - what went well?
+www - what went wrong?
+
+commitment to delivery%
+
+definition of done:when can i say my work is done
+checklist of tasksis done only then the story is done
