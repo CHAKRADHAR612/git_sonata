@@ -1,0 +1,245 @@
+1 day training and the 2nd day evening 6:00pm would be the assessment
+
+assessment links (googling no)
+9:00 AM sharp start
+availability 9 to 6 hands-on 
+
+offline reason to leave
+
+		software engineering
+module 1:
+introduction to software engineering
+benefits etc..,
+
+program solves only 1 problem
+where as software solves set of problems
+
+online shopping website is a software in which we have programs to do a specific task.
+
+software includes:
+executable code which performs the specific tasks
+supporting documents
+
+FC - functional consultant in the ERP(enterprise resource planning) project
+
+generic software targets wide range of audience.
+custom software targets a group of users
+ex: lms(only for sonata),intranet portals for each client etc..,
+
+our final year project may be a custom software.
+
+introduction:
+discipline which is concerned with all aspects of software production.
+technical processes of software development
+software project management
+often adopt a systematic and organized approach.
+
+if we don't follow software engineering then it will result to project failure.
+
+layers of software engineering
+
+1. a quality focus
+2. process model
+3. methods
+4. tools
+
+RAD: rapid application development
+
+the foundation for software engineering is process layer
+
+software engineering tools provide automated or semi automated support.
+
+kt: knowledge transfer
+
+
+			module 2
+software process
+
+set of activities whose goal is to deliver the software development or evolution of software.
+
+generic activities:
+specification - define software that is to be produced
+development - software is designed and programmed
+validation - checking that the software is what the customer wants
+evolution -  changing the software in response to changing customer/market requirements
+
+from v1.0
+if it is a minor change v1.1
+major change v2.0
+
+
+sdlc:
+term used in software engineering to describe a process for planning,creating,testing and deploying software.
+1.requirement analysis
+2.design
+3.implementation
+4.testing
+5.evolution
+
+why sdlc?
+encourage an exact sequence of activities.
+
+generic software process model
+1.waterfall model
+2.evolutionary/protype-based development
+3.incremental development
+4.spiral development
+
+waterfall model
+1.requirements
+2.design
+3.implementation
+4.testing(verification)
+5.maintenance - not mandatory
+
+each phase must be completed before the next phase can begin.
+no overlapping in the phases are allowed
+the outcome of one phase acts as the input for the next phase.
+change request is difficult in waterfall model
+
+			Module 3
+requirement engineering:
+what to develop?
+the process of establishing what services are required and he constraints on the system's operation and development.
+
+process/activities involved:
+1.feasibility study
+2.requirements elicitation and analysis
+3.requirements specification
+4.requirements validation
+
+types of requirements:
+functional requirements
+non functional requirements
+
+functional requirements:
+define what the system is supposed to do
+the user must be able to see atmost 3 items per row on the screen.
+
+specify:
+1.introduction/purpose
+2.inputs
+3.processing
+4.outputs
+
+Non functional requirements:
+is a requirement that specifies criteria that can be used to judge the operation of a system,rather than specific behaviors.
+1.performance requirements
+2.interface requirements to connect external systems
+3.design constraints
+4.security requirements
+and more...
+
+define how a system is supposed to behave
+
+are often called qualities of a system.
+
+SRS: software requirement specification
+
+cluster of servers to maintain the website 24/7
+
+output of the requirement engineering is SRS software requirement specification.
+
+purpose of srs:
+establish the basis for agreement between the customers and the suppliers on what the software product is to do.
+helps the plan the development effort.
+provide a baseline for validation and verification.
+
+Design:
+How to develop?
+	UI design
+	Mock up pages
+	DB design
+	class design
+	interface design
+
+two types of design:
+1.Architectural design(High level design)
+2.detailed design
+	interface design
+	component design
+	data structure design
+	algorithm design
+
+architects do the job of high level design
+developers do the job of detailed design
+
+design methods:
+1.data-flow models
+2.entity-relationship-attribute model
+etc..,
+
+design deliverables:
+high level design
+low level design
+
+Implementation:
+realize the program
+
+programming and debugging:
+
+programming: executable code using tools like vs code,eclipse etc
+
+debugging:
+finding the bugs
+
+implementation deliverables
+Executable Source code
+unit test results
+
+
+Testing:
+inspect/evaluate design and implementation
+find the faults if any
+software testing is the process of evaluation of a software to detect differences between expected output and actual output.
+
+Types of testing:
+Unit testing
+Functional Testing
+System Testing
+Integration testing
+performance testing
+usability testing
+acceptance testing - done by the customer
+
+Regression testing we take the help of automation like selenium
+
+alpha testing 
+beta testing
+
+deliverables:
+test plan - what to test,how to test,when to test and who will do what test
+
+test cases - specifies input values,expected ouput
+
+test results
+how many passed or failed..
+
+verification: reviewing the project before launching it into the market,done throughout the project.
+
+validation: happens when the source code is ready testing the final product.at the end of the project
+
+project reviews:
+walkthroughs
+checkpoint
+inspections
+audit
+
+4 to 4:45 go through the slide
+
+white box testing is nothing but reviewing the code
+black box testing is the validation,don't know what happens inside
+
+		module 4
+configuration management:
+task of tracking and controlling evolution in the software during development.
+done by GIT
+
+CASE: computer aided software engineering tools
+SCC: software configuration coordinator
+developer may take the role of scc
+
+baseline: changes when there is any change in the  design
+
+requirement traceability matrix?
+R&D on agile,scrum
