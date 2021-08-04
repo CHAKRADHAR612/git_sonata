@@ -1,1 +1,2 @@
 This is a remote file from remote repo
+remote new line from remote repo
